@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.title h1 {
+    font-family:'Berserker Expanded', sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.list_menu a {
+    font-family:'Berserker Expanded', sans-serif;
+    font-size: 25px;
+    color: white;
+    border-left: 2px solid #720808;
+    padding-left: 5px;
+    transition: all 0.2s ease;
+}
+
+.title span {
+    color: #720808;
+}
+
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: bottom 50px;
+    
+}
+
+.list_menu a:hover {
+    border-left: 2px solid #720808;
+    padding-left: 10px;
+    transition: all 0.2s ease;
+
+}
+
+.list_menu li {
+    margin: 15px 0;
+}
+
+.list_menu {
+    margin-bottom: 50px;
+}
+
+.menu {
+
+    position: fixed;
+    padding: 30vh 50px;
+    background: rgba(20, 20, 20, 0.3);
+    height: 100vh;
+    backdrop-filter: blur(16px);
+    border-right: 7px solid #720808;
+    left: -340px;
+    transition: all 0.2s ease;
+}
+
+.menu:hover {
+    left: 0;
+    transition: all 0.2s ease;
+}
+
+.img {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}

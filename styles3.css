@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+/* Работа с фоном */
+.body {
+    background: url(2.jpg) repeat;
+
+
+}
+
+/* Работа с телом */
+.bd {
+    margin: 0 auto;
+    height: 2350px;
+    width: 1080px;
+    background: rgba(247, 136, 136, 0.5);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    position: static;
+
+}
+
+/* Таблица */
+
+#h1 {
+    font-size: 30px;
+}
+
+#h11 {
+    font-size: 18px;
+}
+
+#Basics {
+    font-size: 30px;
+    border-bottom: solid rgb(255, 255, 255) 2px;
+    max-width: 300px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+#section1 {
+    margin-left: -20px;
+
+}
+
+#section2 {
+
+
+    max-width: 700px;
+    overflow: hidden;
+    border-top: solid rgb(255, 255, 255) 2px;
+
+}
+
+.figure img {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+#aside h2 {
+    display: block;
+    text-align: center;
+
+    overflow: hidden;
+
+}
+
+#aside {
+    margin-top: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 300px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: black 0px 0px 20px;
+    border: solid rgb(255, 255, 255) 2px;
+    color: rgb(255, 255, 255);
+    float: left;
+
+}
+
+.title1 h1 {
+    padding-top: 50px;
+    padding-left: 440px;
+    font-family: 'Berserker Expanded', sans-serif;
+    font-size: 70px;
+    color: white;
+    text-shadow: black 10px 5px 10px;
+    border-bottom: solid rgb(255, 255, 255) 2px;
+    box-shadow: 0px 0px 5px;
+}
+
+
+/* Работа с верхним меню */
+.head {
+
+    position: fixed;
+    height: 50px;
+    width: 1920px;
+    background: rgba(129, 34, 34);
+    box-shadow: 0px 0px 20px red;
+}
+
+.text p {
+    margin: 20px;
+    margin-bottom: 15px;
+    width: 700px;
+    height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+    text-align: right;
+    float: left;
+    display: block;text-shadow: black 0px 0px 5px;
+}
+
+.text2 p {
+    display: flex;
+    float: right;
+    margin-right: 40px;
+    width: 1000px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+    text-align: right;
+    text-shadow: black 0px 0px 5px;
+}
+
+#text3 p {
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 1080px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+    text-align: left;
+    text-shadow: black 0px 0px 5px;
+}
+
+#text4 p {
+    width: 1080px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+    text-align: right;
+    padding-left: 15px;
+    padding-right: 20px;
+    text-shadow: black 0px 0px 5px;
+}
+.text p span {
+    color: black;
+    text-shadow: black 0px 0px 5px;
+    
+}
+
+.zagolovok {
+
+    width: 1080px;
+    height: 600px;text-shadow: black 0px 0px 5px;
+}
+
+#imgg {
+    float: left;
+    width: 195px;
+    height: 195px;
+}
+
+#imgg img {
+    margin-top: 10px;
+    width: 195px;
+    height: 195px;
+    padding: 20px;
+    float: left;
+
+}
+
+#pimg {
+    padding-top: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+    float: left;
+    width: 880px;
+    height: 180px;text-shadow: black 0px 0px 5px;
+
+}
+.zagolovok2 {
+    margin-top: 470px;
+    display: flex;
+    width: 1080px;
+    height: 225px;
+    text-shadow: black 0px 0px 5px;
+    
+}
+.zagolovok4 {
+    
+    display: flex;
+    width: 1080px;
+    height: 225px;
+    text-shadow: black 0px 0px 5px;
+    
+}
+#imgg2 {
+    display: flex;
+    width: 180px;
+    height: 235px;
+    float: left;
+    padding-left: 0px;
+} 
+
+#imgg2 img {
+    width: 180px;
+    height: 235px;
+   padding: 20px;
+   padding-left: 0px;
+   float: left;
+   display: flex;
+   
+}
+
+#pimg2 {
+    padding: 20px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+    width: 1080px;
+    height: 180px;
+    float: left;
+    text-align: right;
+    text-shadow: black 0px 0px 5px;
+}
+.zagolovok3 {
+    width: 1080px;
+    height: 250px;
+    text-shadow: black 0px 0px 5px;
+}
+.zagolovok3 h1 {
+    max-width: 1080px;
+    padding-right: 10px;
+    font-family: 'Berserker Expanded', sans-serif;
+    color: white;
+    border-bottom: solid rgb(255, 255, 255) 2px;
+    text-align: right;
+
+}
+
+.zagolovok h1 {
+    max-width: 1080px;
+    padding-left: 10px;
+    font-family: 'Berserker Expanded', sans-serif;
+    color: white;
+    border-bottom: solid rgb(255, 255, 255) 2px;
+
+}
+
+.title h1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    float: left;
+    font-family: 'Berserker Expanded', sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
+
+
+.title span {
+    color: #da3a3a;
+}
+
+.list_menu {
+    margin-top: 8px;
+}
+
+.list_menu a {
+    color: white;
+    padding-bottom: 5px;
+    /* border-bottom: 2px solid rgb(255, 255, 255);  */
+    font-family: 'Berserker Expanded', sans-serif;
+    font-size: 25px;
+    box-shadow: inset 0 0 var(--link-color);
+    transition: box-shadow .3s, color .3s;
+
+}
+
+.list_menu li {
+    margin: 58px;
+    display: inline;
+    color: white;
+}
+
+.list_menu a:hover {
+    color: salmon;
+    box-shadow: inset 100px 0 var(--link-color);
+
+}
+
+
+/* Работа с панелью  */
+#img1 {
+
+
+    width: 375px;
+    height: 210px;
+    margin: 7px;
+    margin-bottom: 0px;
+    /* box-shadow: 5px 5px 40px; */
+    margin-left: 12px;
+
+}
+
+#img2 {
+
+    width: 375px;
+    height: 210px;
+    margin: 10px;
+    /* box-shadow: 5px 5px 40px; */
+    margin-bottom: 0px;
+    margin-left: 12px;
+}
+
+#img3 {
+
+    width: 375px;
+    height: 210px;
+    /* box-shadow: 5px 5px 40px; */
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+
+}
+
+#img4 {
+
+    width: 375px;
+    height: 210px;
+    margin: 10px;
+    /* box-shadow: 5px 5px 40px; */
+    margin-bottom: 0px;
+    margin-left: 12px;
+
+}
+
+#img5 {
+    max-width: 100px;
+    margin-left: 150px;
+}
+
+
+.panel {
+    width: 400px;
+    height: 940px;
+    background: rgb(134, 48, 48);
+    box-shadow: black 10px 10px 30px;
+    position: absolute;
+    margin-left: 1510px;
+    margin-top: 60px;
+
+
+    bottom: +990px;
+    transition: all 0.5s ease;
+
+}
+
+.panel:hover {
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+
+.panel p {
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Berserker Expanded', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255, 0.5);
+    text-shadow: black 2px 2px 10px;
+
+}
+
+.manga {
+    position: absolute;
+    left: 20px;
+    top: 235px;
+    font-family: 'Berserker Expanded', sans-serif;
+    color: white;
+    text-shadow: black 2px 2px 3px;
+    border-left: 2px solid #720808;
+    padding-left: 2px;
+    transition: all 0.4s ease;
+
+}
+
+.panel a {
+    color: white;
+}
+
+.panel a:visited {
+    color: white;
+}
+
+.panel a:hover {
+    color: #720808;
+    padding-left: 5px;
+    transition: all 0.4s ease;
+}
+
+.season1 {
+    position: absolute;
+    left: 20px;
+    top: 458px;
+    font-family: 'Berserker Expanded', sans-serif;
+    color: white;
+    text-shadow: black 2px 2px 3px;
+    border-left: 2px solid #720808;
+    padding-left: 2px;
+    transition: all 0.4s ease;
+}
+
+.season2 {
+    position: absolute;
+    left: 20px;
+    top: 681px;
+    font-family: 'Berserker Expanded', sans-serif;
+    color: white;
+    text-shadow: black 2px 2px 3px;
+    border-left: 2px solid #720808;
+    padding-left: 2px;
+    transition: all 0.4s ease;
+}
+
+.season3 {
+    position: absolute;
+    left: 20px;
+    top: 904px;
+    font-family: 'Berserker Expanded', sans-serif;
+    color: white;
+    text-shadow: black 2px 2px 3px;
+    border-left: 2px solid #720808;
+    padding-left: 2px;
+    transition: all 0.4s ease;
+}
+
+#fot{
+    background: rgb(134, 48, 48);
+    box-shadow: rgb(255, 2, 2) 10px 10px 30px;
+    width: 1920px;
+    height:60px;
+    margin: 0px auto;
+  
+}
+#fot h3{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 241, 241, 0.5)
+}
+.arrow-down {
+    margin: 370px;
+    margin-top: 30px;
+}
+
+.arrow-down span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #d84c58;
+    border-right: 5px solid #d84c58;
+    ;
+    transform: rotate(45deg);
+    margin: -16px;
+    animation: arrow-down 2s infinite;
+}
+
+.arrow-down span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow-down span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes arrow-down {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+.arrowUp {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(130deg, #f36060 50%, #f02a4b 50%);
+    -webkit-background-size: 300%;
+    background-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 5px;
+    transition: .5s;
+  }
+  
+  .arrowUp:hover {
+    background-position: 100% 0;
+  }
